@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.message-box {
+    display: flex;
+    flex-direction: column;
+    width: 90%; /* Increase width */
+    max-width: 1200px; /* Increase max-width */
+    min-width: 600px;
+    margin: 0 auto;
+    height: 80vh; /* Adjust height as needed */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+
+
+.message-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    max-width: 70%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+.own-message {
+    background-color: #dcf8c6; /* Light green */
+    align-self: flex-end;
+}
+
+.other-message {
+    background-color: #f0f0f0; /* Light grey */
+    align-self: flex-start;
+}
+
+.user-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.user-img img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.message-text {
+    white-space: pre-wrap;
+    font-family: 'Roboto', sans-serif;
+}
+
+.new-message-form {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0; /* Light gray */
+    border-top: 1px solid #ccc;
+    position: sticky;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.new-message-input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.new-message-btn {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #128C7E; /* WhatsApp green */
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.timestamp {
+    font-size: 0.75em;
+    color: gray;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: #128C7E;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #075E54;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    position: relative;
+}
+
+.back {
+    padding: 3px;
+}
+
+.back button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 3px;
+}
+
+.back button img {
+    width: 20px;
+    height: 20px;
+}
+
+.room-name {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.clear {
+    margin-left: auto;
+}
+
+.clear button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    outline: none;
+}
+
+.clear button:hover {
+    background-color: #c82333;
+}

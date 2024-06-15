@@ -1,0 +1,92 @@
+.Auth-screen {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.Auth-screen p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.rooms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.rooms h1 {
+    margin-bottom: 20px;
+}
+
+.rooms label {
+    margin-bottom: 10px;
+}
+
+.rooms input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.roomsbutton {
+    padding: 2px 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4285f4;
+    color: white;
+    cursor: pointer;
+}
+
+.roomsbutton:hover {
+    background-color: #357ae8;
+}
+.sign-out {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block; /* Adjust the width to fit the text */
+    min-width: auto; 
+}
+
+.sign-out:hover {
+    background-color: #c82333;
+}
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:transparent;
+    border: 0.5px solid #000000;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+  
+.google-btn:hover {
+    background-color: #d8d8d8;
+}
+  
+.google {
+    margin-right: 10px;
+}
+  
+.google img {
+    width: 20px;
+    height: 20px;
+}
